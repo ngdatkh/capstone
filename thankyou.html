@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thank-you page for form submitting sucessfully.">
+  <meta name="keywords" content="web design, web designer, HTML, CSS">
+  <meta name="author" content="Dat Nguyen">
+  <meta name="copyright" content="Dat Nguyen">
+  <title>Dat Nguyen | Form Submisstion Page</title>
+  <link rel="icon" type="image/png" href="images/my-favicon.png" sizes="32x32" />
+  <link href="https://fonts.googleapis.com/css?family=Copse|Nothing+You+Could+Do|Tajawal" rel="stylesheet">  
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <script src="script/prefixfree.min.js"></script>
+  <script src="script/jquery-3.3.1.min.js"></script>  
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/generic.css">
+  <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body id="thank-page">
+  <section id="thank">
+    <h1>DATA SENT</h1>    
+    <p>Form submitted sucessfully!</p>
+    <p>You will be redirected to the home page after 5 seconds.</p>
+    <p>Or click <a href="index.php">here</a> to go back to the home page.</p>
+    <section class="loading">
+      <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+    </section> 
+  </section>
+  <script type="text/javascript">
+    var timer = 5; //seconds
+    website = "index.php"
+    function delayer() {
+      window.location = website;
+    }
+    setTimeout('delayer()', 1000 * timer); 
+  </script>
+</body>
+</html>
