@@ -23,7 +23,7 @@
       </section>  
     </nav>
     <section>
-      <h1>A Curious<br>Web Designer &#8226; UI/UX Designer<br>Residing In Portland</h1>
+      <h1>A Junior<br>Web Designer &#8226; Front-End Developer<br>Residing In Portland</h1>
       <p><a href="index.php#contact">Get In Touch</a></p>
     </section>
   </header>';
