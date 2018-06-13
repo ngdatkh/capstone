@@ -6,7 +6,7 @@ html {
 }
 body {
   line-height: 1.5;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background: #f7f7f7;
   background-image: url(../images/plant2.png);
   background-position: 90% bottom;
@@ -17,7 +17,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Copse', serif;
+  font-family: 'Lusitana', serif;
 }
 @keyframes spin {
   0% {
@@ -133,7 +133,7 @@ body#thank-page {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-shadow: 1px 1px #222222, 2px 2px #222222, 3px 3px #222222, 4px 4px #222222, 5px 5px #222222;
+  text-shadow: 1px 1px #222222, 2px 2px #222222;
 }
 #thank .loading {
   position: absolute;
@@ -151,7 +151,7 @@ body#thank-page {
 }
 header {
   background: #197e94;
-  background-image: linear-gradient(to left bottom, #7df2d7, #3eb7bb, #197e94, #114963, #081a2e);
+  background-image: url(../images/hero-image.png);
 }
 header nav div#hamburger-menu {
   text-align: right;
@@ -268,12 +268,11 @@ header > section {
 }
 header > section h1 {
   color: #f7f7f7;
-  font-size: 1.8em;
+  font-size: 1.5em;
   padding: 32px 16px;
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 3px;
-  text-shadow: 1px 1px #222222, 2px 2px #222222, 3px 3px #222222, 4px 4px #222222, 5px 5px #222222;
+  text-shadow: 1px 1px #222222, 2px 2px #222222;
 }
 header > section p {
   padding: 32px 0;
@@ -299,7 +298,7 @@ main {
   padding: 0;
 }
 main h2 {
-  font-family: 'Copse', serif;
+  font-family: 'Lusitana', serif;
   font-size: 1.7em;
 }
 section#about {
@@ -387,7 +386,7 @@ form label:after {
   display: inline-block;
   width: 120%;
   height: 120%;
-  background: #29e7d8;
+  background: rgba(22, 199, 185, 0.4);
   top: -13%;
   left: -10%;
   z-index: -5;
@@ -403,11 +402,11 @@ form textarea {
   box-shadow: none;
   outline: none;
   transition: background .2s ease;
-  border: 0.125em solid #16c7b9;
+  border: 0.125em solid rgba(22, 199, 185, 0.8);
 }
 form input:focus,
 form textarea:focus {
-  background: #222222;
+  background: #3c3c3c;
   color: #f7f7f7;
 }
 form input.error,
@@ -449,7 +448,7 @@ form button {
   padding: .75em 1.25em;
   outline: none;
   border: none;
-  background: #29e7d8;
+  background: rgba(22, 199, 185, 0.5);
   color: #222222;
   text-decoration: none;
   text-shadow: none;
@@ -461,9 +460,6 @@ form button {
 form button:active {
   box-shadow: 0px 2px 0px 0px #222222;
   top: 1px;
-}
-form button:focus {
-  border: solid 2px #222222;
 }
 footer {
   margin: 3em 0 1em 0;
@@ -684,22 +680,31 @@ footer a:hover {
     text-align: center;
   }
   section#contact > section {
-    display: inline-block;
-    max-width: 55em;
+    width: 100%;
+  }
+  section#contact > section form {
+    display: block;
+    width: 100%;
+    padding: 0 25%;
   }
   section#contact > section form label {
     display: block;
+    width: 100%;
     padding: 0 .75em;
     text-align: left;
-    background: #29e7d8;
+    background: rgba(22, 199, 185, 0.4);
   }
   section#contact > section form label:after {
     background: none;
   }
   section#contact > section form input,
   section#contact > section form textarea {
-    width: 25em;
+    width: 100%;
     text-align: left;
+  }
+  section#contact > section form div {
+    max-width: 100%;
+    width: 100%;
   }
   footer {
     text-align: center;
@@ -719,5 +724,9 @@ footer a:hover {
   header nav #nav-menu {
     max-width: 60em;
     margin: 0 auto;
+  }
+  header > section h1 {
+    font-size: 1.8em;
+    text-transform: uppercase;
   }
 }

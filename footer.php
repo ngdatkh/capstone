@@ -1,6 +1,6 @@
 <?php 
   echo '<footer>
-    <h2>The Footer</h2>
+    <h2>Links</h2>
     <section>
       <nav>
         <ul>

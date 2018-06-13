@@ -23,8 +23,8 @@
       </section>  
     </nav>
     <section>
-      <h1>A Junior<br>Web Designer &#8226; Front-End Developer<br>Residing In Portland</h1>
-      <p><a href="index.php#contact">Get In Touch</a></p>
+      <h1>Want A Skillful Web Designer &#8226; Front-End Developer<br>For Your Websites?</h1>      
+      <p><a href="index.php#contact">Hire Me</a></p>
     </section>
   </header>';
 ?>

@@ -9,7 +9,8 @@
   <meta name="copyright" content="Dat Nguyen">
   <title>Dat Nguyen | The home of everything</title>
   <link rel="icon" type="image/png" href="images/my-favicon.png" sizes="32x32" />
-  <link href="https://fonts.googleapis.com/css?family=Copse|Nothing+You+Could+Do|Tajawal" rel="stylesheet">  
+<!--  <link href="https://fonts.googleapis.com/css?family=Copse|Nothing+You+Could+Do|Tajawal" rel="stylesheet">  -->
+  <link href="https://fonts.googleapis.com/css?family=Lusitana:400,700|Nothing+You+Could+Do|Raleway" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <script src="script/prefixfree.min.js"></script>
   <script src="script/jquery-3.3.1.min.js"></script>  
@@ -39,7 +40,7 @@
         </figure>
         <div>
           <p>Dat Nguyen is currently a second-year student at Portland Community College and majors in Web Development &amp; Design. His knowledge of web development, however, is very limited. Instead, he's usually seen learning and making designs. Certainly, web designing is his strongest skill. For now, he's looking for a chance to do real projects with professional web developers and web designers.</p>
-          <p>In his free time, he may learn Japanese, learn to draw, learn music, or read various types of books. He's a keen believer that designing is not an easy job, and that the better one knows, the more his designing skill is refined.</p>
+          <p>In his free time, he may learn Japanese, learn to draw, learn music, or read various types of books. He's a keen believer that designing is not an easy job, and that the more one knows, the more his designing skill may be refined.</p>
         </div>
       </section>
     </section>
@@ -56,7 +57,6 @@
         </figure>   
         <section class="pro-content">
           <p>This was one of the most challenging web-related courses at Portland Community College. In this one, I had to build a website based on some given content. I had to make back and forth discussions with the customer (not real, but is a hard-to-please one). I had to learn mostly everything new on my own. Additionally, I had to use PHP to send data from the registration form back to the server and a personal email. The validation for the form had to be written out using JavaScript/jQuery. There were all kinds of things to take care of.</p>       
-          <p>The course was harsh, but in the end, I made it out alive.</p>
           <p><a target="_blank" href="http://datwebdesign.com/projects/cas222/">See Now</a></p>   
         </section>       
       </article>
@@ -120,7 +120,7 @@
             <label for="message">Your message</label>
             <textarea rows="6" name="message" id="message"></textarea>        
             <p class="error">
-              <span>Your message must contain 10 to 100 words.</span>
+              <span>Your message must contain 10 to 100 words and the character limit is 1000.</span>
             </p>
           </div>
           <button id="submit-button" type="submit">Submit</button>

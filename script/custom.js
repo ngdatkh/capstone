@@ -223,8 +223,8 @@ $(document).ready(function() {
   }  
   
   function countWords(s) {
-    s = s.replace(/(^\s*)|(\s*$)/gi,"");//exclude  start and end white-space
-    s = s.replace(/[ ]{2,}/gi," ");//2 or more space to 1
+    s = s.replace(/(^\s*)|(\s*$)/gi,""); //exclude  start and end white-space
+    s = s.replace(/[ ]{2,}/gi," "); //2 or more space to 1
     s = s.replace(/\n /,"\n"); // exclude newline with a start spacing
     return s.split(' ').length; 
   }
@@ -236,11 +236,14 @@ $(document).ready(function() {
     var error = false;
     
     messageValue = trimWhiteSpace(messageValue);
-    message.val(messageValue);
+    message.val(messageValue);     
     
     words = countWords(messageValue);
 
     if(words < 10 || words > 100) {     
+      error = true;
+    }
+    if(!hasValidLength(messageValue, 1, 1000)) {     
       error = true;
     }
 
