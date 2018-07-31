@@ -1,8 +1,9 @@
+// Some information has been removed
 <?php
-$servername = "datwebdesign.com";
-$username = "cas285main";
-$password = 'averyGoodPa$$word';
-$dbname = "cas285";
+$servername = "";
+$username = "";
+$password = '';
+$dbname = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -32,7 +33,7 @@ if(IsInjected($visitor_email)) {
 }
 
 // Send email
-$email_from = 'ngdatkh@gmail.com';//<== update the email address
+$email_from = '';//<== update the email address
 $email_subject = "Capstone New Form submission";
 $email_body = "This is an email from the Capstone website.\nYou have received a new message from $name.\n"
               ."The registered email is $visitor_email.\n"
